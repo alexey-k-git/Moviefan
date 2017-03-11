@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainBackground"
+        tools:context="com.restfulrobot.moviefan.game_activities.GuessTheMovieActorsActivity">
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:paddingTop="2dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/hintBtn"
+            android:background="@drawable/custom_border"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/fragment_container"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/hints"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/hintCountTxt"
+            android:text="10/10"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/hintBtn"
+            android:layout_margin="1dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="useHints"
+            android:text="@string/hint"
+            style="@style/AbleButton"/>
+    </RelativeLayout>

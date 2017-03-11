@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="your_achievement_label">Ваши достижения</string>
+    <string name="message_reset_achievement">Сбросить достижения?</string>
+    <string name="player_name">Имя:</string>
+    <string name="movies">Фильмы:</string>
+    <string name="actors">Актеры:</string>
+    <string name="sum_answers">Всего ответов:</string>
+    <string name="true_answers">Правильных ответов:</string>
+    <string name="movie_actors">Актеры по фильмам:</string>
+    <string name="false_answers">Ложных ответов</string>
+</resources>

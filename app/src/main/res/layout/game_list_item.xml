@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_border"
+    android:paddingBottom="3dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/gameTextItem"
+        android:text="-Пример-"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/example" />
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/example" />
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/example" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/extraRaw"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/example" />
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/example" />
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/example" />
+    </LinearLayout>
+</LinearLayout>

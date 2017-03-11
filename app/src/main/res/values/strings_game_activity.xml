@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="next">дальше</string>
+    <string name="skip">пропустить</string>
+    <string name="confirm">подтвердить выбор</string>
+    <string name="the_end">конец</string>
+    <string name="cancel">отмена</string>
+    <string name="change_screen">другой кадр</string>
+    <string name="show_actors">показать фото актеров</string>
+    <string name="show_screens">показать кадры из фильма</string>
+    <string name="less_variants">меньше вариантов</string>
+    <string-array name="typeOfGames">
+        <item>УГАДАЙ КИНО</item>
+        <item>УГАДАЙ АКТЁРА</item>
+        <item>АКТЁР-КИНО</item>
+        <item>БЛИЦ</item>
+    </string-array>
+    <string name="what_is_movie">Какой это фильм?</string>
+    <string name="who_is_actor">Как зовут этого актера?</string>
+    <string name="begin">НАЧАТЬ!</string>
+    <string name="hint">Подсказка</string>
+    <string name="hints">Подсказки</string>
+    <string name="begin_blitz">Начать</string>
+    <string name="points">Очков:</string>
+</resources>

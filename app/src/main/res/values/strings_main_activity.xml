@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_game">Новая игра</string>
+    <string name="settings">Настройки</string>
+    <string name="support">Поддержать автора</string>
+    <string name="achievements">Достижения</string>
+    <string name="update">Обновить базу фильмов</string>
+    <string name="exit">Выход</string>
+    <string name="change_theme">Смена темы приложения:</string>
+    <string name="reset_data_base">Сбросить базу данных</string>
+    <string name="updating">Идёт обновление</string>
+</resources>

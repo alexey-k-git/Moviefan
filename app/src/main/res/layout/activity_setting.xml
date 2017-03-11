@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/settingLayoutMain"
+    tools:context=".SettingActivity">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/change_theme"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:checked="false"
+        android:textOff="@string/bright"
+        android:textOn="@string/dark"
+        android:id="@+id/toggleTheme" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/id_useridview_switch"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:textOff="@string/bright"
+        android:textOn="@string/dark"
+        />
+
+    <Button
+        android:text="@string/reset_data_base"
+        android:layout_marginTop="20dp"
+        style="@style/MainMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:onClick="resetDataBase"
+        />
+</LinearLayout>

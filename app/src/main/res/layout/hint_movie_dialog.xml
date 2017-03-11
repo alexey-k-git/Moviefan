@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_gravity="center"
+style="@style/AppTheme">
+<Button
+    android:id="@+id/btnMovieHintChangeScreen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    style="@style/AbleButton"
+    android:layout_gravity="center"
+    android:text="@string/change_screen">
+</Button>
+<Button
+    android:id="@+id/btnMovieHintLessVariants"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    style="@style/AbleButton"
+    android:layout_gravity="center"
+    android:text="@string/less_variants">
+</Button>
+<Button
+    android:id="@+id/btnMovieHintCancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    style="@style/AbleButton"
+    android:layout_gravity="center"
+    android:text="@string/cancel">
+</Button>
+</LinearLayout>

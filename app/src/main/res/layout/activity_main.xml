@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.restfulrobot.moviefan.MainActivity"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/logoImage"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - МЕНЮ - "
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+          />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/MainMenuButton"
+        android:text="@string/start_game"
+        />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/MainMenuButton"
+        android:text="@string/settings" />
+
+    <Button
+        android:id="@+id/btnAchievements"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/MainMenuButton"
+        android:text="@string/achievements"
+/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/MainMenuButton"
+        android:text="@string/update" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnSupport"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/MainMenuButton"
+        android:text="@string/support" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/MainMenuButton"
+        android:text="@string/exit"/>
+
+</LinearLayout>
+</ScrollView>

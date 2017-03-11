@@ -1,0 +1,289 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.restfulrobot.moviefan.game_activities.GuessTheMovieActorsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/movieName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:text="Фильм"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/movieScreens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/movieScreen1"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:src="@drawable/example" />
+
+            <ImageView
+                android:id="@+id/movieScreen2"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/example" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:text="Актерский состав: "
+            android:textSize="18sp" />
+
+        <GridLayout
+            android:id="@+id/gridText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:columnCount="1"
+            android:rowCount="6">
+
+            <CheckBox
+                android:id="@+id/checkVar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Varian 1"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkVar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Varian 2"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkVar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Varian 3"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkVar4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Varian 4"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkVar5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Varian 5"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/checkVar6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Varian 6"
+                android:textSize="15sp" />
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/gridActorPhotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:columnCount="3"
+            android:rowCount="2"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/imageCheckBox1"
+                    android:layout_width="80dp"
+                    android:layout_height="106.6dp"
+                    android:src="@drawable/example2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#FFFFFF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/imageCheckBox2"
+                    android:layout_width="80dp"
+                    android:layout_height="106.6dp"
+                    android:src="@drawable/example2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#FFFFFF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/imageCheckBox3"
+                    android:layout_width="80dp"
+                    android:layout_height="106.6dp"
+                    android:src="@drawable/example2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#FFFFFF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/imageCheckBox4"
+                    android:layout_width="80dp"
+                    android:layout_height="106.6dp"
+                    android:src="@drawable/example2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#FFFFFF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/imageCheckBox5"
+                    android:layout_width="80dp"
+                    android:layout_height="106.6dp"
+                    android:src="@drawable/example2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#FFFFFF" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/imageCheckBox6"
+                    android:layout_width="80dp"
+                    android:layout_height="106.6dp"
+                    android:background="#FFFFFF"
+                    android:src="@drawable/example2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#FFFFFF" />
+            </RelativeLayout>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AbleButton"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/confirm" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/btnSkip"
+            style="@style/SimpleButton"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/skip" />
+
+    </LinearLayout>
+</ScrollView>

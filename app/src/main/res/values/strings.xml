@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">КиНо М@Н</string>
+    <string name="main_activity_label">КиНо М@Н</string>
+    <string name="game_selection_activity_label">Выбор игры</string>
+    <string name="guess_the_movie_label">УГАДАЙ КИНО</string>
+    <string name="guess_the_actor_label">УГАДАЙ АКТЁРА</string>
+    <string name="guess_the_movie_actors_label">АКТЁР - КИНО</string>
+    <string name="guess_blitz_label">БЛИЦ</string>
+    <string name="message_reset_database">Сбросить всю базу данных приложения?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="blitz_record">Рекорд в режиме БЛИЦ:</string>
+    <string name="reset_achievement_base">Сбросить Достижения</string>
+    <string name="bright">Светлая</string>
+    <string name="dark">Темная</string>
+    <string name="aplication_database">базы данных приложения...</string>
+</resources>

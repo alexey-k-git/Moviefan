@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="true_answer">
+        <item>Правильно!</item>
+        <item>Так держать!</item>
+        <item>Верно!</item>
+        <item>Элементарно, Ватсон!</item>
+        <item>Ты знал!Ты знал!</item>
+        <item>Цель ликвидирована!</item>
+        <item>Безупречно!</item>
+        <item>Ходор. Ходор!</item>
+    </string-array>
+    <string-array name="false_answer">
+        <item>Что-то пошло не так...</item>
+        <item>Неправильно.</item>
+        <item>Неверно!</item>
+        <item>Могло быть и лучше...</item>
+        <item>Я верил в тебя Эннакин...</item>
+        <item>Это неправильно.. Неправильно. Карл!</item>
+        <item>Ложь ведет к темной стороне...</item>
+        <item>!@№?</item>
+    </string-array>
+    <string-array name="almost_true_answer">
+        <item>Почти верно!</item>
+        <item>Угадал, но не всё!</item>
+        <item>Чуть чуть не дотянул!</item>
+    </string-array>
+</resources>
