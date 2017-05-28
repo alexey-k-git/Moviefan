@@ -161,7 +161,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     // Устаревший диалог
-
     @Deprecated
     public ProgressDialog getProgressBar()
     {
